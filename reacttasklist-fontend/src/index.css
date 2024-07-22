@@ -1,0 +1,21 @@
+:root {
+  --bg-gradient: linear-gradient(
+    356deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 19%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  --font-main: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  --txt-color: #fafafa;
+}
+
+html{
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg-gradient);
+  font-family: var(--font-main);
+}
