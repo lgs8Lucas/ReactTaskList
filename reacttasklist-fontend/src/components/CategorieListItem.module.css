@@ -1,0 +1,33 @@
+.list{
+    list-style: none;
+    padding: 0;
+    border: 1px solid var(--bg-seccond);
+    border-radius: 0.5em;
+    margin-bottom: 1em;
+    display: flex;
+    padding: .5em 1em;
+    font-size: 1.1em;
+    align-items: center;
+}
+
+.list p{
+    margin-right: 2em;
+}
+
+.list button{
+    border-radius: 1em;
+    background-color: transparent;
+    color: #f00;
+    font-weight: bold;
+    border: 0;
+    border-bottom: 2px solid #f00;
+    padding: 3px 3px;
+    height: fit-content;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.list button:hover{
+    color: rgb(182, 0, 0);
+    border-bottom: 2px solid rgb(182, 0, 0);
+}

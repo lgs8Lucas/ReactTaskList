@@ -15,3 +15,7 @@ body {
   background: var(--bg-color);
   font-family: var(--font-main);
 }
+
+ul{
+  padding: 0;
+}
