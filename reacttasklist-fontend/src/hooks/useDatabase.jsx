@@ -21,7 +21,6 @@ const useDatabase = (url) => {
     } else if (method === "DELETE") {
       setConfig({
         method,
-        headers: { "Content-type": "application/json" },
       });
       setId(data);
     }

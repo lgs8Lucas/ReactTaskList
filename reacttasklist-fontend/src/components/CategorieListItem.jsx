@@ -1,11 +1,11 @@
 import React from 'react'
 import style from './CategorieListItem.module.css'
 
-const CategorieListItem = (props) => {
+const CategorieListItem = ({id, name, del}) => {
   return (
     <li className={style.list}>
-        <p>{props.id} - {props.name}</p>
-        <button>Apagar</button>
+        <p>{id} - {name}</p>
+        <button onClick={del}>Apagar</button>
     </li>
   )
 }

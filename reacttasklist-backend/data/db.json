@@ -1,12 +1,16 @@
 {
   "categories": [
     {
-      "id": "1",
-      "name": "Estudo"
+      "name": "Estudo",
+      "id": "r0YMdoJ"
     },
     {
-      "id": "2",
-      "name": "Projeto"
+      "name": "Projeto",
+      "id": "s-A09_c"
+    },
+    {
+      "name": "Lazer",
+      "id": "gwIcLuE"
     }
   ]
 }
