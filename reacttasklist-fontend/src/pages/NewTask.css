@@ -1,0 +1,31 @@
+.newTask{
+    display: flex;
+    flex-direction: column;
+}
+.newTask label{
+    display: flex;
+    flex-direction: column;
+}
+
+.newTask span, .newTask input, .newTask select {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.newTask input, .newTask select {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    padding: .2em;
+    border-radius: 1em;
+    border: 1px solid var(--bg-seccond);
+}
+
+.newTask input[type='submit']{
+    background-color: var(--bg-seccond);
+    color: var(--txt-color);
+    cursor: pointer;
+}
+
+.newTask input[type='submit']:hover{
+    background-color: rgb(70, 70, 70);
+}

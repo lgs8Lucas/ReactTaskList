@@ -12,5 +12,55 @@
       "name": "Lazer",
       "id": "gwIcLuE"
     }
+  ],
+  "tasks": [
+    {
+      "task": "Fazer Lição de Casa",
+      "categorie": "Lazer",
+      "description": "Fazer a lição de casa de geografia",
+      "completed": false,
+      "date": "2024-07-24T16:03:36.307Z",
+      "id": 1
+    },
+    {
+      "task": "Fazer Lição de Casa",
+      "categorie": "Lazer",
+      "description": "Fazer a lição de casa de geografia",
+      "completed": false,
+      "date": "2024-07-24T16:03:36.307Z",
+      "id": 2
+    },
+    {
+      "task": "Fazer Lição de Casa",
+      "categorie": "Lazer",
+      "description": "Fazer a lição de casa de geografia",
+      "completed": false,
+      "date": "2024-07-24T16:03:36.307Z",
+      "id": 3
+    },
+    {
+      "task": "Assistir Deadpool e Wolverine",
+      "categorie": "Lazer",
+      "description": "Assistir ao filme deadpool e wolverine nos cinemas",
+      "completed": false,
+      "date": "2024-07-24T16:05:18.029Z",
+      "id": 4
+    },
+    {
+      "task": "Assistir Deadpool e Wolverine",
+      "categorie": "Lazer",
+      "description": "Assistir ao filme deadpool e wolverine nos cinemas",
+      "completed": false,
+      "date": "2024-07-24T16:07:00.031Z",
+      "id": 5
+    },
+    {
+      "task": "Assistir Deadpool e Wolverine",
+      "categorie": "Lazer",
+      "description": "Assistir ao filme deadpool e wolverine nos cinemas",
+      "completed": false,
+      "date": "2024-07-24T16:07:40.320Z",
+      "id": 6
+    }
   ]
 }
