@@ -16,25 +16,9 @@
   "tasks": [
     {
       "task": "Fazer Lição de Casa",
-      "id": 1,
-      "description": "Fazer a lição de casa de geografia Fazer a lição de casa de geografia Fazer a lição de casa de geografia Fazer a lição de casa de geografia",
-      "completed": false,
-      "date": "2024-08-24T16:03:36.307Z",
-      "categorie": "Lazer"
-    },
-    {
-      "task": "Fazer Lição de Casa",
       "id": 2,
       "description": "Fazer a lição de casa de geografia",
-      "completed": false,
-      "date": "2024-07-24T16:03:36.307Z",
-      "categorie": "Lazer"
-    },
-    {
-      "task": "Fazer Lição de Casa",
-      "id": 3,
-      "description": "Fazer a lição de casa de geografia",
-      "completed": false,
+      "completed": true,
       "date": "2024-07-24T16:03:36.307Z",
       "categorie": "Lazer"
     },
@@ -42,49 +26,9 @@
       "task": "Assistir Deadpool e Wolverine",
       "id": 4,
       "description": "Assistir ao filme deadpool e wolverine nos cinemas",
-      "completed": false,
+      "completed": true,
       "date": "2024-07-24T16:05:18.029Z",
       "categorie": "Lazer"
-    },
-    {
-      "task": "Assistir Deadpool e Wolverine",
-      "categorie": "Lazer",
-      "description": "Assistir ao filme deadpool e wolverine nos cinemas",
-      "completed": false,
-      "date": "2024-07-24T16:07:00.031Z",
-      "id": 5
-    },
-    {
-      "task": "Assistir Deadpool e Wolverine",
-      "categorie": "Lazer",
-      "description": "Assistir ao filme deadpool e wolverine nos cinemas",
-      "completed": false,
-      "date": "2024-07-24T16:07:40.320Z",
-      "id": 6
-    },
-    {
-      "task": "teste",
-      "categorie": "",
-      "description": "1",
-      "completed": false,
-      "date": "2024-07-24T16:51:32.495Z",
-      "id": 7
-    },
-    {
-      "task": "2",
-      "categorie": "",
-      "description": "3",
-      "completed": false,
-      "date": "2024-07-24T16:51:48.200Z",
-      "id": 8
-    },
-    {
-      "task": "4",
-      "categorie": "Projeto",
-      "description": "5",
-      "completed": false,
-      "date": "2024-07-24T16:53:18.990Z",
-      "id": 9
     }
   ]
 }

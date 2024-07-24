@@ -29,7 +29,6 @@ const useDatabase = (url) => {
         headers: { "Content-type": "application/json" },
         body: JSON.stringify(data),
       });
-      console.log(data);
       setId(data.id);
     }
     setMethod(method);

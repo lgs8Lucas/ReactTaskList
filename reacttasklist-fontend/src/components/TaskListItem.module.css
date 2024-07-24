@@ -22,3 +22,18 @@
 .list_body input{
     min-width: 50px;
 }
+
+.item button{
+    background-color: red;
+    border: none;
+    color: var(--txt-color);
+    border-radius: 1em;
+    padding: .5em;
+    font-weight: bold;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.item button:hover{
+    background-color: brown;
+}

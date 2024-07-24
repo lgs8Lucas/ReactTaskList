@@ -21,11 +21,18 @@ const TaskListitem = ({ task, description, completed, date, httpCallMethod, id, 
     }
     httpCallMethod(newTask, 'PUT');
   };
+
+  const handleDelete = () =>{
+    httpCallMethod(id, 'DELETE')
+  }
   return (
     <li className={style.item} >
       <div className={style.list_header}>
         <h3>{task}</h3>
+        <div>
         <span>{fDate}</span>
+        <button onClick={handleDelete}>Apagar</button>
+        </div>
       </div>
       <div className={style.list_body}>
         <input type="checkbox" checked={completed} onChange={handleCheck} />
