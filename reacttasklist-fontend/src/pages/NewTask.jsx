@@ -24,18 +24,18 @@ const NewTask = () => {
 
   const [form, setForm] = useState({
     task:'',
-    categorie:'',
+    categorie:categories[0],
     description:''
   })
 
-  const handleSubmit = (e) =>{
+  const handleSubmit = async (e) =>{
     e.preventDefault()
     const task = {
       ...form,
       completed: false,
       date: new Date()
     }
-    tasksCallMethod(task, 'POST');
+    await tasksCallMethod(task, 'POST');
     if(!tasksError) navigate('/');
   }
 

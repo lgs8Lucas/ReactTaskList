@@ -23,6 +23,14 @@ const useDatabase = (url) => {
         method,
       });
       setId(data);
+    } else if (method === "PUT" ){
+      setConfig({
+        method,
+        headers: { "Content-type": "application/json" },
+        body: JSON.stringify(data),
+      });
+      console.log(data);
+      setId(data.id);
     }
     setMethod(method);
   };
@@ -51,6 +59,10 @@ const useDatabase = (url) => {
         const res = await fetch(...opts);
         json = await res.json();
       } else if (method === "DELETE") {
+        let opts = [url + "/" + id, config];
+        const res = await fetch(...opts);
+        json = await res.json();
+      }else if (method === "PUT") {
         let opts = [url + "/" + id, config];
         const res = await fetch(...opts);
         json = await res.json();

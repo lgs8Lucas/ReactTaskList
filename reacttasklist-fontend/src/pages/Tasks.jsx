@@ -11,7 +11,7 @@ const Tasks = () => {
     <main className="tasks">
       <h2>Tasks</h2>
       <ul>
-        {data && data.map(task => <TaskListitem  key={task.id} {...task}/>)}
+        {data && data.map(task => <TaskListitem  key={task.id} {...task} httpCallMethod={httpCallMethod}/>)}
       </ul>
     </main>
   );
