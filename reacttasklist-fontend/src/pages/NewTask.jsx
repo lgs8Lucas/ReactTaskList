@@ -24,7 +24,7 @@ const NewTask = () => {
 
   const [form, setForm] = useState({
     task:'',
-    categorie:categories[0],
+    categorie:'',
     description:''
   })
 

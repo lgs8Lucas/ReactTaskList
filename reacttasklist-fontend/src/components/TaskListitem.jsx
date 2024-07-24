@@ -37,6 +37,7 @@ const TaskListitem = ({ task, description, completed, date, httpCallMethod, id, 
       <div className={style.list_body}>
         <input type="checkbox" checked={completed} onChange={handleCheck} />
         <p>{description}</p>
+        <p>{categorie}</p>
       </div>
     </li>
   );
