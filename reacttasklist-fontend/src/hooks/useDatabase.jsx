@@ -49,11 +49,11 @@ const useDatabase = (url) => {
       if (method === "POST") {
         let opts = [url, config];
         const res = await fetch(...opts);
-        json = await res.json;
+        json = await res.json();
       } else if (method === "DELETE") {
         let opts = [url + "/" + id, config];
         const res = await fetch(...opts);
-        json = await res.json;
+        json = await res.json();
       }
       setCallSearch(json);
     };
